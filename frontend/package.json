@@ -20,7 +20,6 @@
     "three": "^0.175.0",
     "three-stdlib": "^2.35.15",
     "typed.js": "^2.1.0",
-    "vite-plugin-worker": "^1.0.4",
     "voice-transalation": "file:..",
     "wavesurfer.js": "^7.9.1",
     "zustand": "^5.0.3"

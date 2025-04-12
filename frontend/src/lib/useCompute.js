@@ -32,7 +32,7 @@ export const useCompute = create((set, get) => ({
   flac: async (base64audio) => {
     try {
       const res = await axios.post(
-        "http://localhost:3000/api/convert",
+        "https://voice-translation-6a2f.onrender.com/api/convert",
         { audio_base64: base64audio },
         { responseType: "blob" }
       );

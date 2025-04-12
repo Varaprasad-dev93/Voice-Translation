@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-image: url('../background.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: 10px;
+    color: white;
+}
+select{
+    color:black
+}

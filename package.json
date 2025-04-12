@@ -1,0 +1,23 @@
+{
+  "name": "voice-transalation",
+  "version": "1.0.0",
+  "description": "\"# VoiceTranslation\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npm i --prefix backend && npm i --prefix frontend && npm run build --prefix frontend",
+    "start":"npm run dev --prefix backend && npm run dev --prfix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Varaprasad-dev93/VoiceTranslation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Varaprasad-dev93/VoiceTranslation/issues"
+  },
+  "homepage": "https://github.com/Varaprasad-dev93/VoiceTranslation#readme"
+}

@@ -9,7 +9,7 @@ import { useGLTF, useAnimations, Html } from "@react-three/drei";
 import { SkeletonUtils } from "three-stdlib";
 import { useCompute } from "../lib/useCompute";
 import * as THREE from "three";
-import TypingTextOnce from "./Typingtextonce";
+import TypingTextOnce from "./TypingTextOnce";
 
 export function Model(props) {
   const group = React.useRef();
